@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      h1.title {
+        color: white;
+        background-color: #000;
+        margin-bottom: 1rem !important;
+      }
+
+      table.table {
+        /*transform: rotate(-90deg);
+        transform-origin: 50% 57.6%;*/
+      }
+
+      table.table th,
+      table.table td {
+        text-align: center;
+        font-size: 0.5rem;
+      }
+
+      table.table th,
+      .force-left-align {
+        text-align: left;
+      }
+
+      table.table th {
+        vertical-align: middle;
+      }
+
+      table.table th.super {
+        font-size: 0.75rem;
+      }
+
+      table.table td.semisuper {
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      table.table th.dark {
+        color: white;
+        background-color: black;
+        text-align: center;
+      }
+
+      /*table.table tr.headers td {
+        white-space: nowrap;
+        writing-mode: vertical-lr;
+        transform: rotate(-90deg);
+      }*/
+    </style>
+  </head>
+  <body>
+    <h1 class="title">No IV Quick Access Meds</h1>
+    
+    <div class="container">
+      <table class="table is-bordered is-striped is-narrow is-fullwidth">
+        <tbody>
+          <tr class="headers">
+            <th rowspan="2" colspan="2" class="super">mLs</th>
+            <td class="broselow gray">3kg</td>
+            <td class="broselow gray">4kg</td>
+            <td class="broselow gray">5kg</td>
+            <td class="broselow pink">Pink</td>
+            <td class="broselow red">Red</td>
+            <td class="broselow purple">Purple</td>
+            <td class="broselow yellow">Yellow</td>
+            <td class="broselow white">White</td>
+            <td class="broselow blue">Blue</td>
+            <td class="broselow orange">Orange</td>
+            <td class="broselow green">Green</td>
+            <th rowspan="2" class="super">Dose</th>
+          </tr>
+          <tr>
+            <td colspan="11" class="semisuper">Anaphylaxis</td>
+          </tr>
+          <tr>
+            <th colspan="2">IM EPI (1 mg/mL)</th>
+            <td class="broselow gray">0.03 mL</td>
+            <td class="broselow gray">0.04 mL</td>
+            <td class="broselow gray">0.05 mL</td>
+            <td class="broselow pink">0.07 mL</td>
+            <td class="broselow red">0.09 mL</td>
+            <td class="broselow purple">0.1 mL</td>
+            <td class="broselow yellow">0.13 mL</td>
+            <td class="broselow white">0.17 mL</td>
+            <td class="broselow blue">0.21 mL</td>
+            <td class="broselow orange">0.27 mL</td>
+            <td class="broselow green">0.33 mL</td>
+            <th>0.01 mg/kg<br>Max 0.5 mg</th>
+          </tr>
+          <tr>
+            <th colspan="2">Epi Auto-injector</th>
+            <td class="broselow gray">N/A</td>
+            <td class="broselow gray">N/A</td>
+            <td class="broselow gray">N/A</td>
+            <td class="broselow pink">N/A</td>
+            <td class="broselow red">N/A</td>
+            <td class="broselow purple">0.15 mg</td>
+            <td class="broselow yellow">0.15 mg</td>
+            <td class="broselow white">0.15 mg</td>
+            <td class="broselow blue">0.15 mg</td>
+            <td class="broselow orange">0.3 mg</td>
+            <td class="broselow green">0.3 mg</td>
+            <th>10-25 kg: 0.15 mg<br>&gt; 25 kg: 0.3 mg</th>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="11" class="semisuper">Seizures</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th colspan="2">Rectal Diazepam<br>5 mg/mL</th>
+            <td class="broselow gray">0.3 mL</td>
+            <td class="broselow gray">0.4 mL</td>
+            <td class="broselow gray">0.5 mL</td>
+            <td class="broselow pink">0.65 mL</td>
+            <td class="broselow red">0.85 mL</td>
+            <td class="broselow purple">1 mL</td>
+            <td class="broselow yellow">1.3 mL</td>
+            <td class="broselow white">1.7 mL</td>
+            <td class="broselow blue">2 mL</td>
+            <td class="broselow orange">2 mL</td>
+            <td class="broselow green">2 mL</td>
+            <th>0.5 mg/kg<br>Max 10 mg</th>
+          </tr>
+          <tr>
+            <th colspan="2">Nasal &amp; IM Midazolam<br>5 mg/mL</th>
+            <td class="broselow gray">0.12 mL</td>
+            <td class="broselow gray">0.16 mL</td>
+            <td class="broselow gray">0.2 mL</td>
+            <td class="broselow pink">0.26 mL</td>
+            <td class="broselow red">0.34 mL</td>
+            <td class="broselow purple">0.42 mL</td>
+            <td class="broselow yellow">0.52 mL</td>
+            <td class="broselow white">0.66 mL</td>
+            <td class="broselow blue">0.84 mL</td>
+            <td class="broselow orange">1 mL</td>
+            <td class="broselow green">1.3 mL</td>
+            <th>0.2 mg/kg</th>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="11" class="semisuper">Wheezing</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th rowspan="2">Albuterol Nebulized</th>
+            <th>0.83 mg/mL</th>
+            <td class="broselow gray">2.5 mL</td>
+            <td class="broselow gray">2.5 mL</td>
+            <td class="broselow gray">2.5 mL</td>
+            <td class="broselow pink">2.5 mL</td>
+            <td class="broselow red">2.5 mL</td>
+            <td class="broselow purple">5 mL</td>
+            <td class="broselow yellow">5 mL</td>
+            <td class="broselow white">5 mL</td>
+            <td class="broselow blue">5 mL</td>
+            <td class="broselow orange">5 mL</td>
+            <td class="broselow green">5 mL</td>
+            <th rowspan="2">
+              &lt; 10 kg: 2.5 mg<br>
+              &gt; 10 kg: 5 mg<br>
+              (Dilute the 5 mg/mL in 3 mLs of respiratory saline solution)
+            </th>
+          </tr>
+          <tr>
+            <th>5 mg/mL</th>
+            <td class="broselow gray">0.5 mL</td>
+            <td class="broselow gray">0.5 mL</td>
+            <td class="broselow gray">0.5 mL</td>
+            <td class="broselow pink">0.5 mL</td>
+            <td class="broselow red">0.5 mL</td>
+            <td class="broselow purple">1 mL</td>
+            <td class="broselow yellow">1 mL</td>
+            <td class="broselow white">1 mL</td>
+            <td class="broselow blue">1 mL</td>
+            <td class="broselow orange">1 mL</td>
+            <td class="broselow green">1 mL</td>
+          </tr>
+          <tr>
+            <th class="dark" colspan="13">DOSE in Milligrams</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th colspan="2">IM EPI</th>
+            <td class="broselow gray">0.03</td>
+            <td class="broselow gray">0.04</td>
+            <td class="broselow gray">0.05</td>
+            <td class="broselow pink">0.07</td>
+            <td class="broselow red">0.09</td>
+            <td class="broselow purple">0.1</td>
+            <td class="broselow yellow">0.13</td>
+            <td class="broselow white">0.17</td>
+            <td class="broselow blue">0.21</td>
+            <td class="broselow orange">0.27</td>
+            <td class="broselow green">0.33</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th colspan="2">IM EPI</th>
+            <td class="broselow gray">1.5</td>
+            <td class="broselow gray">2</td>
+            <td class="broselow gray">2.5</td>
+            <td class="broselow pink">3.25</td>
+            <td class="broselow red">4.25</td>
+            <td class="broselow purple">5</td>
+            <td class="broselow yellow">6.5</td>
+            <td class="broselow white">8.5</td>
+            <td class="broselow blue">10</td>
+            <td class="broselow orange">10</td>
+            <td class="broselow green">10</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th colspan="2">Nasal/IM Midazolam</th>
+            <td class="broselow gray">0.6</td>
+            <td class="broselow gray">0.8</td>
+            <td class="broselow gray">1</td>
+            <td class="broselow pink">1.3</td>
+            <td class="broselow red">1.7</td>
+            <td class="broselow purple">2.1</td>
+            <td class="broselow yellow">2.6</td>
+            <td class="broselow white">3.3</td>
+            <td class="broselow blue">4.2</td>
+            <td class="broselow orange">5</td>
+            <td class="broselow green">6.5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th colspan="2">Albuterol</th>
+            <td class="broselow gray">2.5</td>
+            <td class="broselow gray">2.5</td>
+            <td class="broselow gray">2.5</td>
+            <td class="broselow pink">2.5</td>
+            <td class="broselow red">2.5</td>
+            <td class="broselow purple">5</td>
+            <td class="broselow yellow">5</td>
+            <td class="broselow white">5</td>
+            <td class="broselow blue">5</td>
+            <td class="broselow orange">5</td>
+            <td class="broselow green">5</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

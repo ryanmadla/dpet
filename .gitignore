@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+._*
+
+# CocoaPods dependencies (keep Podfile and Podfile.lock tracked)
+/Pods/
+
+# Xcode build output
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager build output
+.build/
+.swiftpm/
+
+# Other generated dependencies and output
+Carthage/Build/

@@ -1,0 +1,9 @@
+This reference app is intended to be a guide only in determining specific drug dosages. The clinical condition of the patient in combination with the provider's clinical experience and training should always be used in the final determination of proper drug dosage and equipment sizes.
+
+If actual weight is available, use app as a calculator by going directly to the weight/dosage zone.
+
+Always use lengths to determine equipment zones.
+
+Warning: Al dosage calculations are based on the concentrations recommended in the calculation basis. Use of any other drug concentrations will result in dosage error.
+
+Measure child to determine weight/color zones.

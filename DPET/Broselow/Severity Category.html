@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      h1.title {
+        color: white;
+        background-color: #000;
+        margin-bottom: 1rem !important;
+      }
+
+      table.table th,
+      table.table td {
+        text-align: center;
+        font-size: 0.6rem;
+      }
+
+      table.table th,
+      .force-left-align {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Severity Category</h1>
+    
+    <div class="container">
+      <table class="table is-bordered is-striped is-narrow is-fullwidth">
+        <tbody>
+          <tr>
+            <th>Component</th>
+            <td colspan="3">+2</td>
+            <td colspan="3">+1</td>
+            <td colspan="3">-1</td>
+          </tr>
+          <tr>
+            <th rowspan="3">Color/size</th>
+            <td class="broselow green">Gr</td>
+            <td class="broselow orange">Or</td>
+            <td class="broselow blue">Bl</td>
+            <td class="broselow white">Wh</td>
+            <td class="broselow yellow">Ye</td>
+            <td class="broselow purple">Pu</td>
+            <td class="broselow red">Re</td>
+            <td class="broselow pink">Pi</td>
+            <td class="broselow gray">3-4-5kg</td>
+          </tr>
+          <tr>
+            <td colspan="3">Green, Orange, Blue</td>
+            <td colspan="3">White, Yellow, Purple</td>
+            <td colspan="3">Red, Pink, 3kg-4kg-5kg</td>
+          </tr>
+          <tr>
+            <td colspan="3">&gt; 20 kg</td>
+            <td colspan="3">10-20 kg</td>
+            <td colspan="3">&lt; 10 kg</td>
+          </tr>
+          <tr>
+            <th>Airway</th>
+            <td colspan="3">Normal</td>
+            <td colspan="3">Maintainable</td>
+            <td colspan="3">Unmaintainable</td>
+          </tr>
+          <tr>
+            <th>CNS</th>
+            <td colspan="3">Awake</td>
+            <td colspan="3">Obtunded</td>
+            <td colspan="3">Comatose</td>
+          </tr>
+          <tr>
+            <th>Systolic BP*</th>
+            <td colspan="3">&gt; 90 mmHg</td>
+            <td colspan="3">90-50 mmHg</td>
+            <td colspan="3">&lt; 50 mmHg</td>
+          </tr>
+          <tr>
+            <th>Open Wounds</th>
+            <td colspan="3">None</td>
+            <td colspan="3">Minor</td>
+            <td colspan="3">Major or Penetrating</td>
+          </tr>
+          <tr>
+            <th>Skeletal</th>
+            <td colspan="3">None</td>
+            <td colspan="3">Closed Fracture</td>
+            <td colspan="3">Open/Multiple Fractures</td>
+          </tr>
+          <tr>
+            <td class="force-left-align" colspan="6">
+              * If proper sized BP cuff not available: BP can be assessed by assigning<br>
+              <strong>+2 Pulse Palpable at wrist</strong><br>
+              <strong>+1 Pulse Palpable at groin</strong><br>
+              <strong>-1 No pulse Palpable</strong><br>
+              Revised from J.J Tepas, M.D.
+            </td>
+            <td colspan="4">
+              <strong>Special trauma care may be indicated if pediatric trauma score is 7 or less.</strong>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="10"><strong>Pediatric Trauma Score</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
